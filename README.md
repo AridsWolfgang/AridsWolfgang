@@ -1,6 +1,6 @@
 # AridsWolfgangX🀄 | Systems & Software Engineer
 
-![Profile Banner](./assets/banner.jpeg)
+![Profile Banner](./assets/bannerII.jpeg)
 ---
 
 ## 🖥️ About Me
