@@ -1,124 +1,102 @@
-# AridsWolfgangX🀄 | Software Engineer
-
-![Profile Banner](./assets/banner.jpeg)
----
-
-## 🖥️ About Me
-
-```assembly
-; Systems Engineer | Low-Level Specialist | Performance Optimizer
-
-section .data
-    expertise      db "Systems Programming, Kernel Development", 0
-    languages      db "Assembly, C, C++, Rust, Python", 0
-    domains        db "OS Development, Compilers, Reverse Engineering, High-Performance Computing", 0
-    philosophy     db "Understanding the machine at its deepest level", 0
-    
-section .text
-    global _start
-    
-_start:
-    mov eax, performance   ; Optimize everything
-    mov ebx, reliability   ; Build robust systems
-    mov ecx, efficiency    ; Maximize resource usage
-    int 0x80               ; Execute excellence
-```
-
----
-
-## 🛠️ Technical Arsenal
-
-### **Systems & Low-Level Programming**
-
-![Assembly](https://img.shields.io/badge/Assembly-6E4C13?style=for-the-badge&logo=assemblyscript&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-
-### **Systems Domains**
-
-![Kernel](https://img.shields.io/badge/Linux_Kernel-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Reverse Engineering](https://img.shields.io/badge/Reverse_Engineering-FF6F00?style=for-the-badge&logo=radar&logoColor=white)
-![Operating Systems](https://img.shields.io/badge/Compiler_Design-4B275F?style=for-the-badge)
-
-### **Backend & High-Level**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-
----
-
-## 🤝 Collaboration & Consulting
-
-### **Available For:**
-
-- **Systems Architecture Design**
-- **Performance Optimization Consulting**
-- **Kernel/Driver Development**
-- **Security Auditing & Reverse Engineering**
-- **Embedded Systems Development**
-- **Technical Training & Workshops**
-
-### **Research Interests:**
-
 ```c
-typedef struct {
-    bool operating_systems;
-    bool reverse-engineering;
-    bool hardware_acceleration;
-    bool formal_methods;
-} ResearchInterests;
+char *whoami = "aridswolfgangx";
 
-ResearchInterests my_interests = {
-    .operating_systems = true,
-    .reverse-engineering = true,
-    .hardware_acceleration = true,
-    .formal_methods = false,  // Learning!
+struct {
+    char *role;
+    char *stack[6];
+    char *domains[4];
+} profile = {
+    .role    = "systems software engineer",
+    .stack   = {"c", "c++", "x86 assembly", "javascript/typescript", "python", "bash"},
+    .domains = {"kernel", "fuzzing", "reverse engineering", "binary analysis"},
 };
 ```
 
 ---
 
-## 📫 Contact & Collaboration
+```nasm
+; projects
 
-<div align="center">
-
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aridswolfgangx@proton.me)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/0xaridswolfgangx/)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/AridsWolfgangX)
-</div>
-
----
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AridsWolfgang/AridsWolfgang/main/assets/divider.svg" width="800" height="4">
-</p>
-
-<div align="center">
-  
-```c
-/* 
- * Systems programming is about understanding 
- * the machine intimately and making it dance 
- * to your tune with precision and elegance.
- */
-printf("Keep hacking at the metal level!\n");
+crucible:   db "c, nasm, win32 — bare-metal hybrid fuzzing", 0
+tcpeek:     db "c, networking, tui — multi-threaded port scanner", 0
+dns_info:   db "python, dns, ci/cd — resolution toolkit", 0
+forge:      db "c, sockets, workshop — systems workshop", 0
 ```
 
-**"First, solve the problem. Then, write the code."** – John Johnson
+**crucible** — `c` `nasm` `win32`
+bare-metal hybrid fuzzing framework. coverage instrumentation,
+mutation engine, debug api harness, crash triage.
 
-</div>
+```
+$ ./crucible --target parser --seed test.bin
+⮡ crash #12 (eip=0x41414141)
+```
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&fontSize=90&fontColor=ffffff" />
-</p>
+[source](https://github.com/AridsWolfgang/Crucible)
 
+**tcpeek** — `c` `networking` `tui`
+multi-threaded port scanner. 300 concurrent workers, non-blocking
+connect+select, cross-platform, service fingerprinting.
+
+```
+$ tcpeek scan.me 1-1000 -t 200
+⮡ open: 22 (ssh) 80 (http) 443 (https)
+```
+
+[source](https://github.com/AridsWolfgang/TCPeek)
+
+**dns_information** — `python` `dns` `ci/cd`
+dns resolution toolkit. 16 record types, dnssec, doh, bulk concurrent
+resolution, global propagation checks.
+
+```
+$ dns lookup example.com --type mx --json
+⮡ 5 records · 0.34s
+```
+
+[source](https://github.com/AridsWolfgang/DNS_Information)
+
+**forge** — `c` `sockets` `workshop`
+progressive systems workshop. echo server, mini shell, cli todo with
+binary persistence, port scanner with raw headers.
+
+```
+$ ./portscan 10.0.0.0/24 1-1024
+⮡ 42 hosts up · 156 ports open
+```
+
+[source](https://github.com/AridsWolfgang/Forge)
 
 ---
 
-<div align="center">
-  
-**"The computer was born to solve problems that did not exist before."** – Bill Gates
+```c
+typedef struct {
+    bool operating_systems;
+    bool fuzzing;
+    bool reverse_engineering;
+    bool offensive_security;
+    bool formal_methods;  // TODO
+} interests;
+```
 
-</div>
+```
+$ cat ~/reading.md
+the art of unix programming — eric s. raymond
+```
+
+```nasm
+; contact
+
+email:     db "aridswolfgangx@proton.me", 0
+github:    db "github.com/AridsWolfgang", 0
+x:         db "x.com/AridsWolfgangX", 0
+linkedin:  db "linkedin.com/in/0xaridswolfgangx", 0
+medium:    db "medium.com/@aridswolfgang", 0
+web:       db "aridswolfgangx.vercel.app", 0
+```
+
+---
+
+```nasm
+; first, solve the problem. then, write the code.
+```
