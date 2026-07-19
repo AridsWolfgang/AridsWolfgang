@@ -4,11 +4,11 @@ char *whoami = "aridswolfgangx";
 struct {
     char *role;
     char *stack[6];
-    char *domains[4];
+    char *domains[5];
 } profile = {
     .role    = "systems software engineer",
     .stack   = {"c", "c++", "x86 assembly", "javascript/typescript", "python", "bash"},
-    .domains = {"kernel", "fuzzing", "reverse engineering", "binary analysis"},
+    .domains = {"kernel", "fuzzing", "reverse engineering", "binary analysis", "offensive_security"},
 };
 ```
 
